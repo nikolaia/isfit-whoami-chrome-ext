@@ -3,7 +3,7 @@
   "content_scripts": [
       {
         "matches": ["https://internal.isfit.org/who_am_i/game"],
-        "js": ["extension.js", "whoamicheat.js"]
+        "js": ["jquery.js", "extension.js", "whoamicheat.js"]
       }
     ],
   "name": "ISFiT Who AM I Cheater",
